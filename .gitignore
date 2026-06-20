@@ -1,0 +1,66 @@
+# ---- OS / editor cruft ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+
+# VS Code
+.vscode/
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+\#*\#
+.\#*
+
+# ---- Agent / assistant tooling (not committed for now) ----
+.agents/
+.claude/
+
+# ---- Go ----
+# Test / coverage artifacts
+*.test
+*.out
+coverage.txt
+coverage.html
+profile.cov
+
+# Compiled binaries / build output
+/bin/
+/dist/
+/build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Dependency vendoring (kept out unless you opt in)
+/vendor/
+
+# ---- Secrets / local config ----
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+credentials.json
+
+# ---- Logs / temp ----
+*.log
+tmp/
+.tmp/
